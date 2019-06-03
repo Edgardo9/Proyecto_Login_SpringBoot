@@ -27,6 +27,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
 	implementation 'org.hibernate:hibernate-entitymanager:5.4.3.Final'
+	implementation 'javax.xml.bind:jaxb-api:2.4.0-b180830.0359'
 }
 
 test {

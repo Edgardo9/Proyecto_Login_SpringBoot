@@ -6,7 +6,7 @@
 
 	<persistence-unit name="persistencia">
 		
-		<class>com.concrete.dto.Usuario</class>
+		<class>com.concrete.app.dto.Usuario</class>
 		
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver" />
