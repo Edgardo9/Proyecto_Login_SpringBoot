@@ -1,0 +1,29 @@
+package com.concrete.app;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.concrete.dto.Usuario;
+import com.login.Login.LoginApplication;
+
+@SpringBootApplication
+public class LoginApplication {
+
+	private static EntityManager manager;
+	private static EntityManagerFactory emf;
+	
+	public static void main(String[] args) {
+		emf = Persistence.createEntityManagerFactory("persistencia");
+		manager = emf.createEntityManager();
+		
+		SpringApplication.run(LoginApplication.class, args);
+	}
+	
+	
+}

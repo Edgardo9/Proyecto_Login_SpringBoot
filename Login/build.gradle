@@ -26,6 +26,7 @@ dependencies {
 	runtimeOnly 'org.hsqldb:hsqldb'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
+	implementation 'org.hibernate:hibernate-entitymanager:5.4.3.Final'
 }
 
 test {

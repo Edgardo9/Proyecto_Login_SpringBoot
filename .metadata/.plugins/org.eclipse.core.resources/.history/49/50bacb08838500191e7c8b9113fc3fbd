@@ -1,0 +1,28 @@
+package com.concrete.dto;
+
+public class Phone {
+	
+	private int number;
+	private int codeCity;
+	private int countryCity;
+	
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	public int getCodeCity() {
+		return codeCity;
+	}
+	public void setCodeCity(int codeCity) {
+		this.codeCity = codeCity;
+	}
+	public int getCountryCity() {
+		return countryCity;
+	}
+	public void setCountryCity(int countryCity) {
+		this.countryCity = countryCity;
+	}
+	
+}
